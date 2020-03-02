@@ -1,0 +1,110 @@
+body
+{
+    background-color: black;
+}
+header
+{
+    background-image: url(../Images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    padding: 1px solid blue;
+}
+#bigPic
+{
+    width: 100%;
+}
+nav
+{
+    background-color: black;
+    padding: 5px;
+}
+nav ul 
+{
+    text-align: center;
+    font-size: 1.4em;
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color: grey;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border-style: solid;
+    border-color: darkcyan;
+    border-radius: 10px;
+}
+nav ul li:hover
+{
+    background-color: darkcyan;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+footer
+{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;    
+    text-align: center;
+}
+footer ul
+{
+    list-style-type: none;
+}
+footer p
+{
+    text-align: center;
+}
+
+#content 
+{
+    color: white;
+    background-color: black;
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+aside 
+{
+    color: white;
+    background-color: black;
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: right;
+}
+
+aside ul li a 
+{
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li
+{
+    color: white;
+    list-style-type: none;
+}
+aside ol li
+{
+    list-style-type: none;
+}
+
+.col_detail 
+{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
